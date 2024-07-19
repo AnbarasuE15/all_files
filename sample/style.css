@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+.header{
+    background-color: blue;
+    color: white;
+    padding: 30px;
+}
+h1,ul,li{
+    display: inline;
+}
+ul{
+    padding-left: 60%;
+}
+li:hover{
+    color: gray;
+    cursor: pointer;
+}
+.search{
+    padding: 50px;
+    text-align: center;
+}
+input{
+    padding: 20px;
+    width: 60%;
+}
+.anime{
+    text-align: center;
+}
+.box{
+    display: inline-block;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+img{
+    width: 220px;
+    height: 220px;
+}
+.p1{
+    width: 220px;
+}
+.box:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+.contact{
+    background-color: blue;
+    height: 20vh;
+    color: white;
+    padding: 20px;
+
+}
+h3{
+    text-align: center;
+}
+.p2{
+    font-size: 10px;
+    padding-top: 10px;
+}

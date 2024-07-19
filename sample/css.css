@@ -1,0 +1,17 @@
+body{
+    background-color: cornflowerblue;
+}
+div{
+    background-color: aquamarine;
+    min-height: 10vh;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+     min-width: 20%;
+}
+.div1{
+    background-color: rgb(223, 115, 244);
+    float: left;
+    min-width: 20%;
+    color: aliceblue;
+}

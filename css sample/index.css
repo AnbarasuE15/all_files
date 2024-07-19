@@ -1,0 +1,47 @@
+body{
+    background-image: url(./images/image3.jpg);
+    background-repeat: no-repeat;
+
+}
+.head{
+    text-align: center;
+    color: aliceblue;
+}
+.container{
+    border-color: aliceblue;
+    border-width: 2px;
+    border-style: solid;
+    height: 150px;
+    margin: 5px;
+    background-color: blueviolet;
+    transition: background-color 1s;
+    opacity: 0.6;
+
+}
+h1{
+    text-align: center;
+}
+.child{
+    display: inline-block;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    height: 100px;
+    width: 45%;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: blue;
+    color: rgb(247, 243, 243);
+    transition: background-color 2s,height 1s;
+}
+.child:hover{
+    height: 110px;
+    background-color: aqua;
+    border-radius: 20px;
+    color: black;
+    
+}
+.container:hover{
+    background-color: rgb(230, 10, 142);
+    opacity: 1  ;
+}

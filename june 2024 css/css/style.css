@@ -1,0 +1,102 @@
+body{
+    background-color: rgba(31, 123, 177, 0.566);
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    gap: 20px;
+
+}
+/* this is using for all div */
+div{
+    background-color:white;
+    border-radius: 10px;
+}
+.card{
+    height: min-content;
+    box-shadow:-10px -10px 20px 0 beige;
+    transition: height 2s;
+    width: fit-content;
+    padding: 5px;
+
+}
+
+.card:hover{
+    cursor: pointer;
+    font-size: 90%;
+}
+/* 
+@media only screen and (min-width:320px) and (max-width:426px){
+    body{
+        background-color: blue;
+        display: grid;
+    }
+    div{
+        background-color: aquamarine;
+        transition: background-color 2s;
+    }
+    h1{
+        color: white;
+    }
+    div:hover{
+        background-color: blue;
+    }
+}
+@media only screen and (min-width:426px) and (max-width:768px){
+    body{
+        background-color: rgb(0, 255, 136);
+        
+    }
+    div{
+        width: 44%;
+        background-color: aquamarine;
+        transition: background-color 2s,color 1s;
+    }
+    div:hover{
+        background-color: blue;
+        color: white;
+    }
+
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+    body{
+        background-color: rgb(255, 98, 0);
+    }
+    div{
+        width: 45%;
+        background-color: rgba(234, 171, 12, 0.632);
+        transition: background-color 2s,color 1s;
+    }
+    div:hover{
+        background-color: rgb(255, 98, 0);
+        color: white;
+    }
+
+}
+@media only screen and (min-width:1025px) and (max-width:1440px){
+    body{
+        background-color: rgb(255, 0, 187);
+    }
+    div{
+        width: 21%;
+        background-color: rgba(251, 172, 253, 0.861);
+        transition: background-color 2s,color 1s;
+    }
+    div:hover{
+        background-color: rgb(255, 0, 187);
+        color: white;
+    }
+}
+@media only screen and (min-width:1441px) and (max-width:2560px){
+    body{
+        background-color: rgb(208, 255, 0);
+    }
+    div{
+        width: 23%;
+        background-color: rgba(239, 253, 172, 0.861);
+        transition: background-color 2s,color 1s;
+    }
+    div:hover{
+        background-color: rgb(255, 0, 187);
+        color: white;
+    }
+
+} */

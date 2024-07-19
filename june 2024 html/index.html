@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21.06.2024</title>
+    <style>
+        iframe {
+
+            width: 70%;
+            margin-top: 20px;
+            margin-left: 200px;
+        }
+
+        .p1 {
+            border: 2px;
+            border-color: black;
+            border-style: solid;
+            background-color: rgb(185, 127, 255);
+            transition: width 2s, hegiht 2s, transform 2s;
+            border-radius: 5px;
+        }
+
+        .p1:hover {
+            color: rgb(0, 255, 55);
+            cursor: pointer;
+            width: 80px;
+            height: 30px;
+            text-align: center;
+            background-color: rgb(6, 6, 6);
+            transform: rotate(360deg);
+
+        }
+
+        .t1 {
+            padding: 20px;
+        }
+
+        header{
+            padding-left: 50px;
+            color: green;
+            background-color: lightgreen;
+        }
+        section{
+            display: flex;
+        }
+        article{
+            margin: 50px;
+            padding: 20px;
+            background-color: rgb(23, 227, 36);
+            color: white;
+        }
+        aside{
+            padding: 50px;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="justify-content: space-between;background-color: rgb(255, 0, 204);display:flex ;height: 10vh;">
+        <div style="color: rgb(255, 255, 255);">
+            <h1>Heading</h1>
+        </div>
+        <div
+            style="color: rgb(42, 165, 79);display: flex; justify-content: space-between; width: 20%; align-items: flex-end;">
+            <a href="#form1" style="font-size: 20px; text-decoration: none; color:rgb(10, 10, 10);">
+                <p class="p1">form</p>
+            </a>
+            <a href="services.html" style="font-size: 20px; text-decoration: none; color:rgb(7, 7, 7);">
+                <p class="p1"> Services</p>
+            </a>
+            <a href="contact.html" style="font-size: 20px; text-decoration: none; color: rgb(7, 7, 7);">
+                <p class="p1">contact</p>
+            </a>
+            <!-- <a href="https://www.google.com/" style="font-size: 20px; text-decoration: none; color: aqua;"><p>google</p></a> -->
+        </div>
+    </div>
+    <h1 style="text-align: center; background-color: rgb(255, 145, 0);">Image tag</h1>
+    <div style="display: flex;">
+        <img src="./images/image.jpg" alt="login" height="200px" width="33.3%">
+        <img src="./images/image2.jpg" alt="login2" height="200px" width="33.3%">
+        <img src="./images/image3.webp" alt="login3" height="200px" width="33.3%">
+    </div>
+    <div style="background-color: cornflowerblue;">
+        <h1 style="text-align: center;"> IFRAME TAG</h1>
+        <iframe src="./854106-hd_1920_1080_25fps.mp4" title="Services"></iframe>
+    </div>
+    <hr>
+    <div style="background-color: rgb(125, 244, 6);">
+        <h1 style="text-align: center;">TABLE and ROW TAG</h1>
+        <table border="2" style="background-color: yellow; margin-left: 40%;">
+            <tr style="background-color: blueviolet;">
+                <th>S.no</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr style="background-color: brown;">
+                <td class="t1">1</td>
+                <td class="t1">Anbarasu</td>
+                <td class="t1">21</td>
+            </tr>
+            <tr style="background-color: brown;">
+                <td class="t1">2</td>
+                <td class="t1">Dinesh kumar</td>
+                <td class="t1">21</td>
+            </tr>
+            <tr style="background-color: brown;">
+                <td class="t1">3</td>
+                <td class="t1">Harish durai</td>
+                <td class="t1">21</td>
+            </tr>
+            <tr style="background-color: brown;">
+                <td class="t1">4</td>
+                <td class="t1">Praveen</td>
+                <td class="t1">21</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <hr>
+    <div style="background-color: rgb(98, 226, 43);">
+        <h1 style="text-align: center;">ORDER and UNORDER LIST TAG</h1>
+
+        <ol>
+            <li>anbu</li>
+            <li>siva</li>
+            <li>simbu</li>
+        </ol>
+        <ul>
+            <li>siva</li>
+            <li>simbu</li>
+            <li>anbu</li>
+        </ul>
+        <dl>
+            <dt>course
+            <dd>python</dd>
+            <dd>java</dd>
+            </dt>
+
+        </dl>
+    </div>
+    <hr>
+    <div style="background-color: rgb(14, 223, 146);">
+        <h1 style="text-align: center;">SPAN TAG</h1>
+        <p>
+            Lorem ipsum dolor sit amet <span
+                style="color: rgb(255, 0, 123); font-weight: bold; font-style: italic; font-size: 20px; background-color: rgb(0, 255, 115);">consectetur
+                adipisicing </span>elit. Quas nobis ab porro, itaque impedit accusantium, cupiditate minima veniam
+            quaerat numquam dignissimos reiciendis libero accusamus nisi excepturi quibusdam quisquam ea fuga!
+        </p>
+    </div>
+    <hr>
+    <div style="background-color: aquamarine;">
+        <h1 id="form1" style="text-align: center;"> FORM TAG and IT'S TYPES</h1>
+        <div
+            style="width: 500px;height: 500px; border-color: rgb(235, 252, 2);border-style: solid;margin-left: 400px; background-color: rgb(16, 216, 239);">
+            <div style="padding-top: 5%;display: inline-block;padding-left:20%;">
+                <form>
+                    <table>
+                        <tr>
+                            <td><label>User Name :</label></td>
+                            <td><input type="text" name="userName" placeholder="User Name" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Date of Birth :</label></td>
+                            <td><input type="date" name="dob" placeholder="Date of Birth" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Mobile Number :</label></td>
+                            <td><input type="number" name="mobileNumber" placeholder="Mobile Number" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>E-mail :</label></td>
+                            <td><input type="email" name="email" placeholder="E-mail" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Coures Name:</label></td>
+                            <td><select name="couresName">
+                                    <option> Python Full Stack</option>
+                                    <option> Java Full Stack</option>
+                                </select></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Password :</label></td>
+                            <td><input type="password" name="pwd" placeholder="Enter the Password" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label> Choose the color:</label></td>
+                            <td><input type="color" name="color" placeholder="Choose the Color" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Choose the File :</label></td>
+                            <td><input type="file" name="file" placeholder="Choose File" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Join Class:</label></td>
+                            <td> <input type="checkbox" name="male" placeholder="Male"><label> Yes</label>
+                                <input type="checkbox" name="female" placeholder="Female"><label> No</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Gender :</label></td>
+                            <td> <input type="radio" name="male" placeholder="Male"><label> Male</label>
+                                <input type="radio" name="female" placeholder="Female"><label> Female</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Image :</label></td>
+                            <td><input type="image" name="image" placeholder="Image" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Choose the Range :</label></td>
+                            <td><input type="range" name="range" placeholder="Range" required></td>
+                        </tr>
+                        <tr>
+                            <td><label>URL :</label></td>
+                            <td><input type="url" name="range" placeholder="Link the URL" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Set the Time :</label></td>
+                            <td><input type="time" name="time" placeholder="Set the Time" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>Tellphone :</label></td>
+                            <td><input type="tel" name="range" placeholder="Enter the Telnumber" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label>find the value :</label></td>
+                            <td><input type="search" name="search" placeholder="Search" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="button" name="bton" placeholder="Button" value="submit"></td>
+                            <td><input type="reset" name="reset" placeholder="Reset" required></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <div style="background-color: aqua;">
+        <h1 style="text-align: center;">HEADER, SECTION, ARTICLE and ASIDE TAG</h1>
+        <header>
+            <h1>Content</h1>
+        </header>
+        <section>
+            <article>
+                Lorem, ipsum dolor sit <b> consectetur adipisicing elit</b>. Doloribus <i>expedita sint delectus </i>aspernatur
+                similique minus consequuntur itaque perspiciatis modi consequatur non sed quo quod unde soluta id
+                exercitationem rem molestiae vero, nobis quos ad explicabo? Non dolorum suscipit ut alias quod? Aperiam
+                voluptates saepe atque, molestias consequatur blanditiis deleniti suscipit cumque labore? Debitis illo
+                est laboriosam modi a tempora corporis voluptas odio ex porro culpa autem earum similique tempore
+                repudiandae cum quia eligendi quaerat nisi saepe, dolores dolore aut? Placeat officiis maiores id totam
+                similique fuga! Hic, totam cumque nam excepturi iste repudiandae laudantium delectus, cum, ullam
+                voluptas eos porro.
+            </article>
+            <aside>
+                Lorem ipsum dolor  <del>sit amet consectetur,</del> adipisicing elit. <strong>Accusamus optio repudiandae</strong> nisi ipsam ullam,
+                iste illum minima <mark> provident quo tempora</mark> aut enim itaque, est blanditiis dolorum labore, esse soluta
+                mollitia nihil saepe. Molestiae nam rem voluptates accusantium distinctio  10 <sup> th </sup>sed iusto <sub>earum </sub>delectus quas
+                similique. Optio officiis rerum corporis <ins>blanditiis veniam temporibus</ins> saepe <u>omnis nesciunt ut,</u> velit
+                repudiandae quae, repellendus at dolore reiciendis tenetur asperiores obcaecati, aspernatur illum? Nisi
+                ullam reprehenderit quisquam quidem ex quo sapiente neque ipsa consectetur non, obcaecati eveniet quasi
+                quam iusto perspiciatis dignissimos, error sit. Quia nam laborum facere minima magnam quaerat, dolorum
+                temporibus sint voluptatem sed?
+            </aside>
+        </section>
+    </div>
+    <hr>
+    <div style="background-color: rgb(79, 153, 216);">
+        <div style="text-align: center;">
+            <h1>DEMO VIDEO</h1>
+            <video style="width: 30%; height: 30%; margin-top: 30px; margin-bottom: 30px;" controls>
+                <source src="./854106-hd_1920_1080_25fps.mp4" type="video/mp4" />
+            </video>
+            <div>
+                <h1>DEMO AUDIO</h1>
+                <audio style="height: 20px; width: 30%;" controls>
+                    <source src="./Sembarambakkam.mp3" type="audio/mp3" />
+                </audio>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

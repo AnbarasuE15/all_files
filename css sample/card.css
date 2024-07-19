@@ -1,0 +1,38 @@
+#card1
+{
+    margin-left: 14%;
+}
+img{
+    width: 100%;
+    border-radius: 3%;
+}
+h2{
+    text-align: center;
+}
+.card{
+    height: fit-content;
+    background-color: white;
+    margin: 10px;
+    float: left;
+    width: 21%;
+    border-radius: 3%;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 100px;
+    transition: 0.1s;
+    color: cadetblue;
+}
+.card span{
+    display: none;
+    
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 5px 0 black;
+    padding: 10px;
+    span{
+        display: contents;
+        
+    }
+}
